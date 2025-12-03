@@ -291,7 +291,20 @@ a:hover {
     .nav-menu.active {
         display: flex; /* Mostra o menu quando a classe 'active' é adicionada pelo JS */
     }
+    
+    .nav-menu a {
+    color: white;
+    padding: 0 15px;
+    font-weight: 500;
+    display: inline-block;
+}
 
+.nav-menu .btn-cta.secondary {
+    
+    margin-right: 15px; 
+  
+    color: white !important; 
+}
     .nav-menu a {
         padding: 10px 0;
         border-bottom: 1px solid #333;
