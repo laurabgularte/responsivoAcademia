@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitPro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">FIT PRO</div>
+        
+        <nav class="nav-menu" id="navMenu">
+            <a href="#home">Início</a>
+            <a href="#classes">Aulas</a>
+            <a href="#plans">Planos</a>
+            <a href="#contact" class="btn-cta">Comece agora!</a>
+        </nav>
+        
+        <button class="menu-toggle" id="menuToggle">☰</button>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>TREINO DE ELITE. CORPO DE CAMPEÃO.</h1>
+            <p>Os melhores programas de treino e instrutores do mercado.</p>
+            <a href="#plans" class="btn-cta large">VEJA OS PLANOS</a>
+        </div>
+    </section>
+
+    <section class="section-padding" id="classes">
+        <h2>Nossas Aulas</h2>
+        
+        <div class="tab-controls">
+            <button class="tab-button active" data-class="musculacao">Musculação</button>
+            <button class="tab-button" data-class="crossfit">CrossFit</button>
+            <button class="tab-button" data-class="yoga">Yoga</button>
+        </div>
+
+        <div class="tab-content-container">
+            <div class="tab-content active" data-content="musculacao">
+                <h3>Horário de Musculação</h3>
+                <p>Equipamentos de última geração. Aberto das 5h às 23h.</p>
+            </div>
+            <div class="tab-content" data-content="crossfit">
+                <h3>Aulas de CrossFit (Agendamento)</h3>
+                <ul>
+                    <li>**Seg/Qua/Sex:** 7:00h | 12:00h | 19:00h</li>
+                    <li>**Ter/Qui:** 8:00h | 18:00h | 20:00h</li>
+                </ul>
+            </div>
+            <div class="tab-content" data-content="yoga">
+                <h3>Sessões de Yoga e Meditação</h3>
+                <ul>
+                    <li>**Ter/Qui:** 10:00h (Iniciante)</li>
+                    <li>**Sábados:** 9:00h (Avançado)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section-padding dark-section" id="plans">
+        <h2>Escolha seu Plano</h2>
+        <div class="plans-grid">
+            
+            <div class="plan-card">
+                <h3>BASIC</h3>
+                <p class="price">R$ 79,90<span>/mês</span></p>
+                <ul>
+                    <li>Acesso à área de pesos</li>
+                    <li>Uso de cardio livre</li>
+                    <li>Armários básicos</li>
+                </ul>
+                <a href="#" class="btn-cta secondary">Assinar</a>
+            </div>
+
+            <div class="plan-card featured">
+                <h3>ULTIMATE PRO</h3>
+                <p class="price">R$ 149,90<span>/mês</span></p>
+                <ul>
+                    <li>Tudo do Basic +</li>
+                    <li>**Aulas em Grupo Ilimitadas**</li>
+                    <li>Acesso a todas as unidades</li>
+                    <li>1 Avaliação Física/Mês</li>
+                </ul>
+                <a href="#" class="btn-cta">MELHOR ESCOLHA</a>
+            </div>
+
+            <div class="plan-card">
+                <h3>VIP</h3>
+                <p class="price">R$ 299,90<span>/mês</span></p>
+                <ul>
+                    <li>Tudo do Ultimate Pro +</li>
+                    <li>Acompanhamento Personalizado</li>
+                    <li>Acesso à Área VIP</li>
+                    <li>Vagas de Estacionamento Reservadas</li>
+                </ul>
+                <a href="#" class="btn-cta secondary">Assinar</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <p>Entre em contato: (XX) 99999-9999 | contato@fitpro.com</p>
+        <p>&copy; 2025 FIT PRO.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
